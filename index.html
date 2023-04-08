@@ -504,6 +504,69 @@
                 </code>
             </article>
         </section>
+
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <article>
+                <p>
+                    A function is a block of code which 
+                    only runs when it is called
+                </p>
+                <p>
+                    You can pass data, known as parameters, 
+                    into a function
+                </p>
+                <p>A function can return data as a result</p>
+                <h3>Creating a Function</h3>
+                <p>
+                    In Python a function is defined using 
+                    the <code>def</code> keyword:
+                </p>
+                <h4>Example</h4>
+                <code>def my_function():</code><br />
+                <code style="display: inline-block; text-indent: 1rem;">
+                    print("Hello from a function")
+                </code>
+                <h3>Arguments</h3>
+                <p>
+                    Information can be passed into functions as 
+                    arguments
+                </p>
+                <p>
+                    Arguments are specified after the function name, 
+                    inside the parentheses. You can add as many 
+                    arguments as you want, just separate them 
+                    with a comma
+                </p>
+                <p>
+                    The following example has a function with one 
+                    argument (fname). When the function is called, 
+                    we pass along a first name, which is used 
+                    inside the function to print the full name:
+                </p>
+                <h4>Example</h4>
+                <code>def my_function(fname):</code><br />
+                <code style="display: inline-block; text-indent: 1rem;">
+                    print(fname + " Refsnes")
+                </code>
+                <code>my_function("Emil")</code><br />
+                <code>my_function("Tobias")</code><br />
+                <code>my_function("Linus")</code><br />
+                <h3>Return Values</h3>
+                <p>
+                    To let a function return a value, 
+                    use the return statement:
+                </p>
+                <h4>Example</h4>
+                <code>def my_function(x):</code>
+                <code style="display: inline-block; text-indent: 1rem;">
+                    return 5 * x
+                </code>
+                <code>print(my_function(3))</code><br />
+                <code>print(my_function(4))</code><br />
+                <code>print(my_function(5))</code><br />
+            </article>
+        </section>
     </main>
 </body>
 </html>
