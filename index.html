@@ -447,6 +447,61 @@
                 <code style="display: inline-block; text-indent: 1rem;">if i == 3:</code><br />
                 <code style="display: inline-block; text-indent: 2rem;">break</code><br />
                 <code style="display: inline-block; text-indent: 1rem;">i += 1</code>
+                <h2>The For Loop</h2>
+                <p>
+                    A <code>for</code> loop is used for iterating over a sequence 
+                    (that is either a list, a tuple, a dictionary, 
+                    a set, or a string).
+                </p>
+                <p>
+                    This is less like the <code>for</code> keyword in other programming 
+                    languages, and works more like an iterator method as 
+                    found in other object-orientated programming languages.
+                </p>
+                <p>
+                    With the <code>for</code> loop we can execute a set of statements, 
+                    once for each item in a list, tuple, set etc.
+                </p>
+                <h4>Example</h4>
+                <p>Print each fruit in a fruit list:</p>
+                <code>fruits = ["apple", "banana", "cherry"]</code><br />
+                <code>for x in fruits:</code><br />
+                <code style="display: inline-block; text-indent: 1rem;">print(x)</code>
+                <h3>The range() Function</h3>
+                <p>
+                    To loop through a set of code a specified number of 
+                    times, we can use the range() function
+                </p>
+                <p>
+                    The range() function returns a sequence of numbers, 
+                    starting from 0 by default, and increments by 1 
+                    (by default), and ends at a specified number
+                </p>
+                <h4>Example</h4>
+                <p>Using the range() function:</p>
+                <code>for x in range(6):</code><br />
+                <code style="display: inline-block; text-indent: 1rem;">
+                    print(x)
+                </code>
+                <h3>Nested Loops</h3>
+                <p>A nested loop is a loop inside a loop</p>
+                <p>
+                    The "inner loop" will be executed one time for 
+                    each iteration of the "outer loop"
+                </p>
+                <h4>Example</h4>
+                <p>Print each adjective for every fruit:</p>
+                <code>adj = ["red", "big", "tasty"]</code><br />
+                <code>
+                    fruits = ["apple", "banana", "cherry"]
+                </code><br />
+                <code>for x in adj:</code><br />
+                <code style="display: inline-block; text-indent: 1rem;">
+                    for y in fruits:
+                </code><br />
+                <code style="display: inline-block; text-indent: 2rem;">
+                    print(x, y)
+                </code>
             </article>
         </section>
     </main>
