@@ -66,11 +66,6 @@
                 </a>
             </li>
             <li>
-                <a class="nav-link" href="#Iterators">
-                    Iterators
-                </a>
-            </li>
-            <li>
                 <a class="nav-link" href="#Modules">
                     Modules
                 </a>
@@ -685,6 +680,47 @@
                     Use the pass keyword when you do not want to add 
                     any other properties or methods to the class
                 </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Modules">
+            <header>Modules</header>
+            <article>
+                <h2>What is a Module?</h2>
+                <p>
+                    Consider a module to be the same as a 
+                    code library
+                </p>
+                <p>
+                    A file containing a set of functions you 
+                    want to include in your application
+                </p>
+                <h3>Create a Module</h3>
+                <p>
+                    To create a module just save the code you 
+                    want in a file with the file extension .py:
+                </p>
+                <h4>Example</h4>
+                <p>
+                    Save this code in a file named 
+                    <code>mymodule.py</code> 
+                </p>
+                <code>def greeting(name):</code>
+                <code style="display: block; text-indent: 1rem;">
+                    print("Hello, " + name)
+                </code>
+                <h3>Use a Module</h3>
+                <p>
+                    Now we can use the module we just created, 
+                    by using the import statement:
+                </p>
+                <h4>Example</h4>
+                <p>
+                    Import the module named mymodule, and call 
+                    the greeting function:
+                </p>
+                <code>import mymodule</code><br /><br />
+                <code>mymodule.greeting("Jonathan")</code>
             </article>
         </section>
     </main>
