@@ -610,6 +610,83 @@
                 </code>
             </article>
         </section>
+
+        <section class="main-section" id="Inheritance">
+            <header>Inheritance</header>
+            <article>
+                <p>
+                    Inheritance allows us to define a class that 
+                    inherits all the methods and properties from 
+                    another class
+                </p>
+                <p>
+                    <strong>Parent class</strong>
+                    is the class being inherited from, also called 
+                    base class
+                </p>
+                <p>
+                    <strong>Child class</strong>
+                    is the class that inherits from another class, 
+                    also called derived class
+                </p>
+                <h3>Create a Parent Class</h3>
+                <p>
+                    Any class can be a parent class, so the syntax 
+                    is the same as creating any other class:
+                </p>
+                <h4>Example</h4>
+                <p>
+                    Create a class named <code>Person</code>, with 
+                    <code>firstname</code> and <code>lastname</code> 
+                    properties, and a <code>printname</code> method:
+                </p>
+                <code>class Person:</code>
+                <code style="display: block; text-indent: 1rem;">
+                    def __init__(self, fname, lname):
+                </code>
+                <code style="display: block; text-indent: 2rem;">
+                    self.firstname = fname
+                </code>
+                <code style="display: block; text-indent: 2rem;">
+                    self.lastname = lname
+                </code><br />
+                <code style="display: block; text-indent: 1rem;">
+                    def printname(self):
+                </code>
+                <code style="display: block; text-indent: 2rem;">
+                    print(self.firstname, self.lastname)
+                </code><br />
+                <code>
+                    #Use the Person class to create an object, 
+                    and then execute the printname method:
+                </code><br /><br />
+                <code>x = Person("John", "Doe")</code><br />
+                <code>x.printname()</code>
+                <h3>Create a Child Class</h3>
+                <p>
+                    To create a class that inherits the functionality 
+                    from another class, send the parent class as a 
+                    parameter when creating the child class:
+                </p>
+                <h4>Example</h4>
+                <p>
+                    Create a class named <code>Student</code>, 
+                    which will inherit the properties and methods 
+                    from the <code>Person</code> class:
+                </p>
+                <code style="display: block; text-indent: 1rem;">
+                    class Student(Person):
+                </code>
+                <code style="display: block; text-indent: 2rem;">
+                    pass
+                </code>
+                <p>
+                    <strong>Note:</strong>
+                    Use the pass keyword when you do not want to add 
+                    any other properties or methods to the class
+                </p>
+            </article>
+        </section>
     </main>
 </body>
 </html>
