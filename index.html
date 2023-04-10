@@ -257,37 +257,43 @@
                 </ul>
                 <h4>Example</h4>
                 <h5>Integers</h5>
-                <p>
-                    <code>x = int(1) # x will be 1</code>
-                </p>
-                <p>
-                    <code>y = int(2.8) # y will be 2</code>
-                </p>
-                <p>
-                    <code>z = int("3") # z will be 3</code>
-                </p>
+                <div class="code-block">
+                    <p>
+                        <code>x = int(1) # x will be 1</code>
+                    </p>
+                    <p>
+                        <code>y = int(2.8) # y will be 2</code>
+                    </p>
+                    <p>
+                        <code>z = int("3") # z will be 3</code>
+                    </p>
+                </div>
 
                 <h5>Floats</h5>
-                <p>
-                    <code>x = float(1) # x will be 1.0</code>
-                </p>
-                <p>
-                    <code>y = float(2.8) # y will be 2.8</code>
-                </p>
-                <p>
-                    <code>z = float("3") # z will be 3.0</code>
-                </p>
+                <div class="code-block">
+                    <p>
+                        <code>x = float(1) # x will be 1.0</code>
+                    </p>
+                    <p>
+                        <code>y = float(2.8) # y will be 2.8</code>
+                    </p>
+                    <p>
+                        <code>z = float("3") # z will be 3.0</code>
+                    </p>
+                </div>
 
                 <h5>Strings</h5>
-                <p>
-                    <code>x = str("s1") # x will be 's1'</code>
-                </p>
-                <p>
-                    <code>y = str(2) # y will be '2'</code>
-                </p>
-                <p>
-                    <code>z = str(3.0) # z will be '3.0'</code>
-                </p>
+                <div class="code-block">
+                    <p>
+                        <code>x = str("s1") # x will be 's1'</code>
+                    </p>
+                    <p>
+                        <code>y = str(2) # y will be '2'</code>
+                    </p>
+                    <p>
+                        <code>z = str(3.0) # z will be '3.0'</code>
+                    </p>
+                </div>
             </article>
         </section>
 
@@ -321,6 +327,7 @@
                     Python supports the usual logical conditions 
                     from mathematics:
                 </h3>
+
                 <ul>
                     <li>
                         <p>Equals: <code>a == b</code></p>
@@ -349,65 +356,71 @@
                 </p>
                 <h4>Example</h4>
                 <h4>If Statement:</h4>
-                <p><code>a = 33</code></p>
-                <p><code>b = 200</code></p>
-                <p>
-                    <code>
-                        if b > a: 
-                        <span style="display: block; text-indent: 1rem;">
-                            print("b is greater than a")
-                        </span> 
-                    </code>
-                </p>
+                <div class="code-block">
+                    <p><code>a = 33</code></p>
+                    <p><code>b = 200</code></p>
+                    <p>
+                        <code>
+                            if b > a: 
+                            <span style="display: block; text-indent: 1rem;">
+                                print("b is greater than a")
+                            </span> 
+                        </code>
+                    </p>
+                </div>
                 <h4>Elif</h4>
                 <p>
                     The elif keyword is pythons way of saying "if the 
                     previous conditions were not true, then try this 
                     condition".
                 </p>
-                <p><code>a = 33</code></p>
-                <p><code>b = 33</code></p>
-                <p>
-                    <code>
-                        if b > a: 
-                        <span style="display: block; text-indent: 1rem;">
-                            print("b is greater than a")
-                        </span> 
-                    </code>
-                    <code>
-                        elif a == b: 
-                        <span style="display: block; text-indent: 1rem;">
-                            print("a and b are equal")
-                        </span> 
-                    </code>
-                </p>
+                <div class="code-block">
+                    <p><code>a = 33</code></p>
+                    <p><code>b = 33</code></p>
+                    <p>
+                        <code>
+                            if b > a: 
+                            <span style="display: block; text-indent: 1rem;">
+                                print("b is greater than a")
+                            </span> 
+                        </code>
+                        <code>
+                            elif a == b: 
+                            <span style="display: block; text-indent: 1rem;">
+                                print("a and b are equal")
+                            </span> 
+                        </code>
+                    </p>
+                </div>
                 <h4>Else</h4>
                 <p>
                     The else keyword catches anything which isn't caught 
                     by the preceding conditions.
                 </p>
-                <p><code>a = 200</code></p>
-                <p><code>b = 33</code></p>
-                <p>
-                    <code>
-                        if b > a: 
-                        <span style="display: block; text-indent: 1rem;">
-                            print("b is greater than a")
-                        </span> 
-                    </code>
-                    <code>
-                        elif a == b: 
-                        <span style="display: block; text-indent: 1rem;">
-                            print("a and b are equal")
-                        </span> 
-                    </code>
-                    <code>
-                        else: 
-                        <span style="display: block; text-indent: 1rem;">
-                            print("a is greater than b")
-                        </span> 
-                    </code>
-                </p>
+                <div class="code-block">
+                    <p><code>a = 200</code></p>
+                    <p><code>b = 33</code></p>
+                    <p>
+                        <code>
+                            if b > a: 
+                            <span style="display: block; text-indent: 1rem;">
+                                print("b is greater than a")
+                            </span> 
+                        </code>
+                        <code>
+                            elif a == b: 
+                            <span style="display: block; text-indent: 1rem;">
+                                print("a and b are equal")
+                            </span> 
+                        </code>
+                        <code>
+                            else: 
+                            <span style="display: block; text-indent: 1rem;">
+                                print("a is greater than b")
+                            </span> 
+                        </code>
+                    </p>
+                </div>
             </article>
         </section>
 
@@ -426,10 +439,12 @@
                 </p>
                 <h4>Example</h4>
                 <p>Print i as long as i is less than 6:</p>
-                <code>i = 1</code><br />
-                <code>while i < 6:</code><br />
-                <code style="display: inline-block; text-indent: 1rem;">print(i)</code><br />
-                <code style="display: inline-block; text-indent: 1rem;">i += 1</code>
+                <div class="code-block">
+                    <code>i = 1</code><br />
+                    <code>while i < 6:</code><br />
+                    <code style="display: inline-block; text-indent: 1rem;">print(i)</code><br />
+                    <code style="display: inline-block; text-indent: 1rem;">i += 1</code>
+                </div>
                 <h3>The break Statement</h3>
                 <p>
                     With the break statement we can stop the loop 
@@ -437,12 +452,14 @@
                 </p>
                 <h4>Example</h4>
                 <p>Exit the loop when i is 3:</p>
-                <code>i = 1</code><br />
-                <code>while i < 6:</code><br />
-                <code style="display: inline-block; text-indent: 1rem;">print(i)</code><br />
-                <code style="display: inline-block; text-indent: 1rem;">if i == 3:</code><br />
-                <code style="display: inline-block; text-indent: 2rem;">break</code><br />
-                <code style="display: inline-block; text-indent: 1rem;">i += 1</code>
+                <div class="code-block">
+                    <code>i = 1</code><br />
+                    <code>while i < 6:</code><br />
+                    <code style="display: inline-block; text-indent: 1rem;">print(i)</code><br />
+                    <code style="display: inline-block; text-indent: 1rem;">if i == 3:</code><br />
+                    <code style="display: inline-block; text-indent: 2rem;">break</code><br />
+                    <code style="display: inline-block; text-indent: 1rem;">i += 1</code>
+                </div>
                 <h2>The For Loop</h2>
                 <p>
                     A <code>for</code> loop is used for iterating over a sequence 
@@ -460,9 +477,11 @@
                 </p>
                 <h4>Example</h4>
                 <p>Print each fruit in a fruit list:</p>
-                <code>fruits = ["apple", "banana", "cherry"]</code><br />
-                <code>for x in fruits:</code><br />
-                <code style="display: inline-block; text-indent: 1rem;">print(x)</code>
+                <div class="code-block">
+                    <code>fruits = ["apple", "banana", "cherry"]</code><br />
+                    <code>for x in fruits:</code><br />
+                    <code style="display: inline-block; text-indent: 1rem;">print(x)</code>
+                </div>
                 <h3>The range() Function</h3>
                 <p>
                     To loop through a set of code a specified number of 
@@ -475,10 +494,12 @@
                 </p>
                 <h4>Example</h4>
                 <p>Using the range() function:</p>
-                <code>for x in range(6):</code><br />
-                <code style="display: inline-block; text-indent: 1rem;">
-                    print(x)
-                </code>
+                <div class="code-block">
+                    <code>for x in range(6):</code><br />
+                    <code style="display: inline-block; text-indent: 1rem;">
+                        print(x)
+                    </code>
+                </div>
                 <h3>Nested Loops</h3>
                 <p>A nested loop is a loop inside a loop</p>
                 <p>
@@ -487,17 +508,19 @@
                 </p>
                 <h4>Example</h4>
                 <p>Print each adjective for every fruit:</p>
-                <code>adj = ["red", "big", "tasty"]</code><br />
-                <code>
-                    fruits = ["apple", "banana", "cherry"]
-                </code><br />
-                <code>for x in adj:</code><br />
-                <code style="display: inline-block; text-indent: 1rem;">
-                    for y in fruits:
-                </code><br />
-                <code style="display: inline-block; text-indent: 2rem;">
-                    print(x, y)
-                </code>
+                <div class="code-block">
+                    <code>adj = ["red", "big", "tasty"]</code><br />
+                    <code>
+                        fruits = ["apple", "banana", "cherry"]
+                    </code><br />
+                    <code>for x in adj:</code><br />
+                    <code style="display: inline-block; text-indent: 1rem;">
+                        for y in fruits:
+                    </code><br />
+                    <code style="display: inline-block; text-indent: 2rem;">
+                        print(x, y)
+                    </code>
+                </div>
             </article>
         </section>
 
@@ -519,10 +542,12 @@
                     the <code>def</code> keyword:
                 </p>
                 <h4>Example</h4>
-                <code>def my_function():</code><br />
-                <code style="display: inline-block; text-indent: 1rem;">
-                    print("Hello from a function")
-                </code>
+                <div class="code-block">
+                    <code>def my_function():</code><br />
+                    <code style="display: inline-block; text-indent: 1rem;">
+                        print("Hello from a function")
+                    </code>
+                </div>
                 <h3>Arguments</h3>
                 <p>
                     Information can be passed into functions as 
@@ -541,26 +566,30 @@
                     inside the function to print the full name:
                 </p>
                 <h4>Example</h4>
-                <code>def my_function(fname):</code><br />
-                <code style="display: inline-block; text-indent: 1rem;">
-                    print(fname + " Refsnes")
-                </code>
-                <code>my_function("Emil")</code><br />
-                <code>my_function("Tobias")</code><br />
-                <code>my_function("Linus")</code><br />
+                <div class="code-block">
+                    <code>def my_function(fname):</code><br />
+                    <code style="display: inline-block; text-indent: 1rem;">
+                        print(fname + " Refsnes")
+                    </code>
+                    <code>my_function("Emil")</code><br />
+                    <code>my_function("Tobias")</code><br />
+                    <code>my_function("Linus")</code>
+                </div>
                 <h3>Return Values</h3>
                 <p>
                     To let a function return a value, 
                     use the return statement:
                 </p>
                 <h4>Example</h4>
-                <code>def my_function(x):</code>
-                <code style="display: inline-block; text-indent: 1rem;">
-                    return 5 * x
-                </code>
-                <code>print(my_function(3))</code><br />
-                <code>print(my_function(4))</code><br />
-                <code>print(my_function(5))</code><br />
+                <div class="code-block">
+                    <code>def my_function(x):</code>
+                    <code style="display: inline-block; text-indent: 1rem;">
+                        return 5 * x
+                    </code>
+                    <code>print(my_function(3))</code><br />
+                    <code>print(my_function(4))</code><br />
+                    <code>print(my_function(5))</code>
+                </div>
             </article>
         </section>
 
@@ -586,10 +615,12 @@
                     Create a class named MyClass, with a 
                     property named x:
                 </p>
-                <code>class MyClass:</code>
-                <code style="display: block; text-indent: 1rem;">
-                    x = 5
-                </code>
+                <div class="code-block">
+                    <code>class MyClass:</code>
+                    <code style="display: block; text-indent: 1rem;">
+                        x = 5
+                    </code>
+                </div>
                 <h3>Create Object</h3>
                 <p>
                     Now we can use the class named MyClass 
@@ -600,10 +631,12 @@
                     Create an object named p1, and print 
                     the value of x:
                 </p>
-                <code>p1 = MyClass()</code>
-                <code style="display: block; text-indent: 1rem;">
-                    print(p1.x)
-                </code>
+                <div class="code-block">
+                    <code>p1 = MyClass()</code>
+                    <code style="display: block; text-indent: 1rem;">
+                        print(p1.x)
+                    </code>
+                </div>
             </article>
         </section>
 
@@ -636,28 +669,30 @@
                     <code>firstname</code> and <code>lastname</code> 
                     properties, and a <code>printname</code> method:
                 </p>
-                <code>class Person:</code>
-                <code style="display: block; text-indent: 1rem;">
-                    def __init__(self, fname, lname):
-                </code>
-                <code style="display: block; text-indent: 2rem;">
-                    self.firstname = fname
-                </code>
-                <code style="display: block; text-indent: 2rem;">
-                    self.lastname = lname
-                </code><br />
-                <code style="display: block; text-indent: 1rem;">
-                    def printname(self):
-                </code>
-                <code style="display: block; text-indent: 2rem;">
-                    print(self.firstname, self.lastname)
-                </code><br />
-                <code>
-                    #Use the Person class to create an object, 
-                    and then execute the printname method:
-                </code><br /><br />
-                <code>x = Person("John", "Doe")</code><br />
-                <code>x.printname()</code>
+                <div class="code-block">
+                    <code>class Person:</code>
+                    <code style="display: block; text-indent: 1rem;">
+                        def __init__(self, fname, lname):
+                    </code>
+                    <code style="display: block; text-indent: 2rem;">
+                        self.firstname = fname
+                    </code>
+                    <code style="display: block; text-indent: 2rem;">
+                        self.lastname = lname
+                    </code><br />
+                    <code style="display: block; text-indent: 1rem;">
+                        def printname(self):
+                    </code>
+                    <code style="display: block; text-indent: 2rem;">
+                        print(self.firstname, self.lastname)
+                    </code><br />
+                    <code class="comment">
+                        #Use the Person class to create an object, 
+                        and then execute the printname method:
+                    </code><br /><br />
+                    <code>x = Person("John", "Doe")</code><br />
+                    <code>x.printname()</code>
+                </div>
                 <h3>Create a Child Class</h3>
                 <p>
                     To create a class that inherits the functionality 
@@ -670,12 +705,14 @@
                     which will inherit the properties and methods 
                     from the <code>Person</code> class:
                 </p>
-                <code style="display: block; text-indent: 1rem;">
-                    class Student(Person):
-                </code>
-                <code style="display: block; text-indent: 2rem;">
-                    pass
-                </code>
+                <div class="code-block">
+                    <code style="display: block; text-indent: 1rem;">
+                        class Student(Person):
+                    </code>
+                    <code style="display: block; text-indent: 2rem;">
+                        pass
+                    </code>
+                </div>
                 <p>
                     <strong>Note:</strong>
                     Use the pass keyword when you do not want to add 
@@ -706,10 +743,12 @@
                     Save this code in a file named 
                     <code>mymodule.py</code> 
                 </p>
-                <code>def greeting(name):</code>
-                <code style="display: block; text-indent: 1rem;">
-                    print("Hello, " + name)
-                </code>
+                <div class="code-block">
+                    <code>def greeting(name):</code>
+                    <code style="display: block; text-indent: 1rem;">
+                        print("Hello, " + name)
+                    </code>
+                </div>
                 <h3>Use a Module</h3>
                 <p>
                     Now we can use the module we just created, 
@@ -720,8 +759,10 @@
                     Import the module named mymodule, and call 
                     the greeting function:
                 </p>
-                <code>import mymodule</code><br /><br />
-                <code>mymodule.greeting("Jonathan")</code>
+                <div class="code-block">
+                    <code>import mymodule</code><br /><br />
+                    <code>mymodule.greeting("Jonathan")</code>
+                </div>
             </article>
         </section>
 
@@ -729,7 +770,7 @@
             <header>Reference</header>
             <article>
                 <p>
-                    The documentation in this page is taken 
+                    The documentation in this page is taken from
                     <a href="https://w3scools.com">W3Schools</a>
                 </p>
             </article>

@@ -84,3 +84,12 @@ section li {
     margin: 0.75rem 0 0 1rem;
 }
 
+.code-block {
+    background-color: #282c34;
+    color: whitesmoke;
+    padding: 0.25rem 1rem;
+}
+
+.comment {
+    color: #888;
+}
