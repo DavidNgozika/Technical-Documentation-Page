@@ -84,6 +84,12 @@ section li {
     margin: 0.75rem 0 0 1rem;
 }
 
+.code-block_container {
+    background-color: #ccc;
+    padding: 1rem 2rem 3rem;
+    border-radius: 8px;
+}
+
 .code-block {
     background-color: #282c34;
     color: whitesmoke;
@@ -93,6 +99,10 @@ section li {
 .inline-code {
     background-color: #ccc;
     padding: 0.25rem;
+}
+
+.code-block_container .inline-code {
+    background-color: #aaa;
 }
 
 .comment {

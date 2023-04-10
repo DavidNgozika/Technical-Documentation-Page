@@ -255,44 +255,46 @@
                         </p>
                     </li>
                 </ul>
-                <h4>Example</h4>
-                <h5>Integers</h5>
-                <div class="code-block">
-                    <p>
-                        <code>x = int(1) # x will be 1</code>
-                    </p>
-                    <p>
-                        <code>y = int(2.8) # y will be 2</code>
-                    </p>
-                    <p>
-                        <code>z = int("3") # z will be 3</code>
-                    </p>
-                </div>
-
-                <h5>Floats</h5>
-                <div class="code-block">
-                    <p>
-                        <code>x = float(1) # x will be 1.0</code>
-                    </p>
-                    <p>
-                        <code>y = float(2.8) # y will be 2.8</code>
-                    </p>
-                    <p>
-                        <code>z = float("3") # z will be 3.0</code>
-                    </p>
-                </div>
-
-                <h5>Strings</h5>
-                <div class="code-block">
-                    <p>
-                        <code>x = str("s1") # x will be 's1'</code>
-                    </p>
-                    <p>
-                        <code>y = str(2) # y will be '2'</code>
-                    </p>
-                    <p>
-                        <code>z = str(3.0) # z will be '3.0'</code>
-                    </p>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <h5>Integers</h5>
+                    <div class="code-block">
+                        <p>
+                            <code>x = int(1) # x will be 1</code>
+                        </p>
+                        <p>
+                            <code>y = int(2.8) # y will be 2</code>
+                        </p>
+                        <p>
+                            <code>z = int("3") # z will be 3</code>
+                        </p>
+                    </div>
+    
+                    <h5>Floats</h5>
+                    <div class="code-block">
+                        <p>
+                            <code>x = float(1) # x will be 1.0</code>
+                        </p>
+                        <p>
+                            <code>y = float(2.8) # y will be 2.8</code>
+                        </p>
+                        <p>
+                            <code>z = float("3") # z will be 3.0</code>
+                        </p>
+                    </div>
+    
+                    <h5>Strings</h5>
+                    <div class="code-block">
+                        <p>
+                            <code>x = str("s1") # x will be 's1'</code>
+                        </p>
+                        <p>
+                            <code>y = str(2) # y will be '2'</code>
+                        </p>
+                        <p>
+                            <code>z = str(3.0) # z will be '3.0'</code>
+                        </p>
+                    </div>
                 </div>
             </article>
         </section>
@@ -366,72 +368,74 @@
                     An "if statement" is written by using the 
                     if keyword.
                 </p>
-                <h4>Example</h4>
-                <h4>If Statement:</h4>
-                <div class="code-block">
-                    <p><code>a = 33</code></p>
-                    <p><code>b = 200</code></p>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <h4>If Statement:</h4>
+                    <div class="code-block">
+                        <p><code>a = 33</code></p>
+                        <p><code>b = 200</code></p>
+                        <p>
+                            <code>
+                                if b > a: 
+                                <span style="display: block; text-indent: 1rem;">
+                                    print("b is greater than a")
+                                </span> 
+                            </code>
+                        </p>
+                    </div>
+                    <h4>Elif</h4>
                     <p>
-                        <code>
-                            if b > a: 
-                            <span style="display: block; text-indent: 1rem;">
-                                print("b is greater than a")
-                            </span> 
-                        </code>
+                        The elif keyword is pythons way of saying "if the 
+                        previous conditions were not true, then try this 
+                        condition".
                     </p>
-                </div>
-                <h4>Elif</h4>
-                <p>
-                    The elif keyword is pythons way of saying "if the 
-                    previous conditions were not true, then try this 
-                    condition".
-                </p>
-                <div class="code-block">
-                    <p><code>a = 33</code></p>
-                    <p><code>b = 33</code></p>
+                    <div class="code-block">
+                        <p><code>a = 33</code></p>
+                        <p><code>b = 33</code></p>
+                        <p>
+                            <code>
+                                if b > a: 
+                                <span style="display: block; text-indent: 1rem;">
+                                    print("b is greater than a")
+                                </span> 
+                            </code>
+                            <code>
+                                elif a == b: 
+                                <span style="display: block; text-indent: 1rem;">
+                                    print("a and b are equal")
+                                </span> 
+                            </code>
+                        </p>
+                    </div>
+                    <h4>Else</h4>
                     <p>
-                        <code>
-                            if b > a: 
-                            <span style="display: block; text-indent: 1rem;">
-                                print("b is greater than a")
-                            </span> 
-                        </code>
-                        <code>
-                            elif a == b: 
-                            <span style="display: block; text-indent: 1rem;">
-                                print("a and b are equal")
-                            </span> 
-                        </code>
+                        The else keyword catches anything which isn't caught 
+                        by the preceding conditions.
                     </p>
-                </div>
-                <h4>Else</h4>
-                <p>
-                    The else keyword catches anything which isn't caught 
-                    by the preceding conditions.
-                </p>
-                <div class="code-block">
-                    <p><code>a = 200</code></p>
-                    <p><code>b = 33</code></p>
-                    <p>
-                        <code>
-                            if b > a: 
-                            <span style="display: block; text-indent: 1rem;">
-                                print("b is greater than a")
-                            </span> 
-                        </code>
-                        <code>
-                            elif a == b: 
-                            <span style="display: block; text-indent: 1rem;">
-                                print("a and b are equal")
-                            </span> 
-                        </code>
-                        <code>
-                            else: 
-                            <span style="display: block; text-indent: 1rem;">
-                                print("a is greater than b")
-                            </span> 
-                        </code>
-                    </p>
+                    <div class="code-block">
+                        <p><code>a = 200</code></p>
+                        <p><code>b = 33</code></p>
+                        <p>
+                            <code>
+                                if b > a: 
+                                <span style="display: block; text-indent: 1rem;">
+                                    print("b is greater than a")
+                                </span> 
+                            </code>
+                            <code>
+                                elif a == b: 
+                                <span style="display: block; text-indent: 1rem;">
+                                    print("a and b are equal")
+                                </span> 
+                            </code>
+                            <code>
+                                else: 
+                                <span style="display: block; text-indent: 1rem;">
+                                    print("a is greater than b")
+                                </span> 
+                            </code>
+                        </p>
+                    </div>
                 </div>
             </article>
         </section>
@@ -449,28 +453,32 @@
                     With the while loop we can execute a set of 
                     statements as long as a condition is true
                 </p>
-                <h4>Example</h4>
-                <p>Print i as long as i is less than 6:</p>
-                <div class="code-block">
-                    <code>i = 1</code><br />
-                    <code>while i < 6:</code><br />
-                    <code style="display: inline-block; text-indent: 1rem;">print(i)</code><br />
-                    <code style="display: inline-block; text-indent: 1rem;">i += 1</code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <p>Print i as long as i is less than 6:</p>
+                    <div class="code-block">
+                        <code>i = 1</code><br />
+                        <code>while i < 6:</code><br />
+                        <code style="display: inline-block; text-indent: 1rem;">print(i)</code><br />
+                        <code style="display: inline-block; text-indent: 1rem;">i += 1</code>
+                    </div>
                 </div>
                 <h3>The break Statement</h3>
                 <p>
                     With the break statement we can stop the loop 
                     even if the while condition is true:
                 </p>
-                <h4>Example</h4>
-                <p>Exit the loop when i is 3:</p>
-                <div class="code-block">
-                    <code>i = 1</code><br />
-                    <code>while i < 6:</code><br />
-                    <code style="display: inline-block; text-indent: 1rem;">print(i)</code><br />
-                    <code style="display: inline-block; text-indent: 1rem;">if i == 3:</code><br />
-                    <code style="display: inline-block; text-indent: 2rem;">break</code><br />
-                    <code style="display: inline-block; text-indent: 1rem;">i += 1</code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <p>Exit the loop when i is 3:</p>
+                    <div class="code-block">
+                        <code>i = 1</code><br />
+                        <code>while i < 6:</code><br />
+                        <code style="display: inline-block; text-indent: 1rem;">print(i)</code><br />
+                        <code style="display: inline-block; text-indent: 1rem;">if i == 3:</code><br />
+                        <code style="display: inline-block; text-indent: 2rem;">break</code><br />
+                        <code style="display: inline-block; text-indent: 1rem;">i += 1</code>
+                    </div>
                 </div>
                 <h2>The For Loop</h2>
                 <p>
@@ -487,12 +495,14 @@
                     With the <code class="inline-code">for</code> loop we can execute a set of statements, 
                     once for each item in a list, tuple, set etc.
                 </p>
-                <h4>Example</h4>
-                <p>Print each fruit in a fruit list:</p>
-                <div class="code-block">
-                    <code>fruits = ["apple", "banana", "cherry"]</code><br />
-                    <code>for x in fruits:</code><br />
-                    <code style="display: inline-block; text-indent: 1rem;">print(x)</code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <p>Print each fruit in a fruit list:</p>
+                    <div class="code-block">
+                        <code>fruits = ["apple", "banana", "cherry"]</code><br />
+                        <code>for x in fruits:</code><br />
+                        <code style="display: inline-block; text-indent: 1rem;">print(x)</code>
+                    </div>
                 </div>
                 <h3>The range() Function</h3>
                 <p>
@@ -504,13 +514,15 @@
                     starting from 0 by default, and increments by 1 
                     (by default), and ends at a specified number
                 </p>
-                <h4>Example</h4>
-                <p>Using the range() function:</p>
-                <div class="code-block">
-                    <code>for x in range(6):</code><br />
-                    <code style="display: inline-block; text-indent: 1rem;">
-                        print(x)
-                    </code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <p>Using the range() function:</p>
+                    <div class="code-block">
+                        <code>for x in range(6):</code><br />
+                        <code style="display: inline-block; text-indent: 1rem;">
+                            print(x)
+                        </code>
+                    </div>
                 </div>
                 <h3>Nested Loops</h3>
                 <p>A nested loop is a loop inside a loop</p>
@@ -518,20 +530,22 @@
                     The "inner loop" will be executed one time for 
                     each iteration of the "outer loop"
                 </p>
-                <h4>Example</h4>
-                <p>Print each adjective for every fruit:</p>
-                <div class="code-block">
-                    <code>adj = ["red", "big", "tasty"]</code><br />
-                    <code>
-                        fruits = ["apple", "banana", "cherry"]
-                    </code><br />
-                    <code>for x in adj:</code><br />
-                    <code style="display: inline-block; text-indent: 1rem;">
-                        for y in fruits:
-                    </code><br />
-                    <code style="display: inline-block; text-indent: 2rem;">
-                        print(x, y)
-                    </code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <p>Print each adjective for every fruit:</p>
+                    <div class="code-block">
+                        <code>adj = ["red", "big", "tasty"]</code><br />
+                        <code>
+                            fruits = ["apple", "banana", "cherry"]
+                        </code><br />
+                        <code>for x in adj:</code><br />
+                        <code style="display: inline-block; text-indent: 1rem;">
+                            for y in fruits:
+                        </code><br />
+                        <code style="display: inline-block; text-indent: 2rem;">
+                            print(x, y)
+                        </code>
+                    </div>
                 </div>
             </article>
         </section>
@@ -553,12 +567,14 @@
                     In Python a function is defined using 
                     the <code class="inline-code">def</code> keyword:
                 </p>
-                <h4>Example</h4>
-                <div class="code-block">
-                    <code>def my_function():</code><br />
-                    <code style="display: inline-block; text-indent: 1rem;">
-                        print("Hello from a function")
-                    </code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <div class="code-block">
+                        <code>def my_function():</code><br />
+                        <code style="display: inline-block; text-indent: 1rem;">
+                            print("Hello from a function")
+                        </code>
+                    </div>
                 </div>
                 <h3>Arguments</h3>
                 <p>
@@ -577,30 +593,34 @@
                     we pass along a first name, which is used 
                     inside the function to print the full name:
                 </p>
-                <h4>Example</h4>
-                <div class="code-block">
-                    <code>def my_function(fname):</code><br />
-                    <code style="display: inline-block; text-indent: 1rem;">
-                        print(fname + " Refsnes")
-                    </code>
-                    <code>my_function("Emil")</code><br />
-                    <code>my_function("Tobias")</code><br />
-                    <code>my_function("Linus")</code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <div class="code-block">
+                        <code>def my_function(fname):</code><br />
+                        <code style="display: inline-block; text-indent: 1rem;">
+                            print(fname + " Refsnes")
+                        </code>
+                        <code>my_function("Emil")</code><br />
+                        <code>my_function("Tobias")</code><br />
+                        <code>my_function("Linus")</code>
+                    </div>
                 </div>
                 <h3>Return Values</h3>
                 <p>
                     To let a function return a value, 
                     use the return statement:
                 </p>
-                <h4>Example</h4>
-                <div class="code-block">
-                    <code>def my_function(x):</code>
-                    <code style="display: inline-block; text-indent: 1rem;">
-                        return 5 * x
-                    </code>
-                    <code>print(my_function(3))</code><br />
-                    <code>print(my_function(4))</code><br />
-                    <code>print(my_function(5))</code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <div class="code-block">
+                        <code>def my_function(x):</code>
+                        <code style="display: inline-block; text-indent: 1rem;">
+                            return 5 * x
+                        </code>
+                        <code>print(my_function(3))</code><br />
+                        <code>print(my_function(4))</code><br />
+                        <code>print(my_function(5))</code>
+                    </div>
                 </div>
             </article>
         </section>
@@ -622,32 +642,36 @@
                 </p>
                 <h3>Create a Class</h3>
                 <p>To create a class, use the keyword class:</p>
-                <h4>Example</h4>
-                <p>
-                    Create a class named MyClass, with a 
-                    property named x:
-                </p>
-                <div class="code-block">
-                    <code>class MyClass:</code>
-                    <code style="display: block; text-indent: 1rem;">
-                        x = 5
-                    </code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <p>
+                        Create a class named MyClass, with a 
+                        property named x:
+                    </p>
+                    <div class="code-block">
+                        <code>class MyClass:</code>
+                        <code style="display: block; text-indent: 1rem;">
+                            x = 5
+                        </code>
+                    </div>
                 </div>
                 <h3>Create Object</h3>
                 <p>
                     Now we can use the class named MyClass 
                     to create objects:
                 </p>
-                <h4>Example</h4>
-                <p>
-                    Create an object named p1, and print 
-                    the value of x:
-                </p>
-                <div class="code-block">
-                    <code>p1 = MyClass()</code>
-                    <code style="display: block; text-indent: 1rem;">
-                        print(p1.x)
-                    </code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <p>
+                        Create an object named p1, and print 
+                        the value of x:
+                    </p>
+                    <div class="code-block">
+                        <code>p1 = MyClass()</code>
+                        <code style="display: block; text-indent: 1rem;">
+                            print(p1.x)
+                        </code>
+                    </div>
                 </div>
             </article>
         </section>
@@ -675,35 +699,37 @@
                     Any class can be a parent class, so the syntax 
                     is the same as creating any other class:
                 </p>
-                <h4>Example</h4>
-                <p>
-                    Create a class named <code class="inline-code">Person</code>, with 
-                    <code class="inline-code">firstname</code> and <code class="inline-code">lastname</code> 
-                    properties, and a <code class="inline-code">printname</code> method:
-                </p>
-                <div class="code-block">
-                    <code>class Person:</code>
-                    <code style="display: block; text-indent: 1rem;">
-                        def __init__(self, fname, lname):
-                    </code>
-                    <code style="display: block; text-indent: 2rem;">
-                        self.firstname = fname
-                    </code>
-                    <code style="display: block; text-indent: 2rem;">
-                        self.lastname = lname
-                    </code><br />
-                    <code style="display: block; text-indent: 1rem;">
-                        def printname(self):
-                    </code>
-                    <code style="display: block; text-indent: 2rem;">
-                        print(self.firstname, self.lastname)
-                    </code><br />
-                    <code class="comment">
-                        #Use the Person class to create an object, 
-                        and then execute the printname method:
-                    </code><br /><br />
-                    <code>x = Person("John", "Doe")</code><br />
-                    <code>x.printname()</code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <p>
+                        Create a class named <code class="inline-code">Person</code>, with 
+                        <code class="inline-code">firstname</code> and <code class="inline-code">lastname</code> 
+                        properties, and a <code class="inline-code">printname</code> method:
+                    </p>
+                    <div class="code-block">
+                        <code>class Person:</code>
+                        <code style="display: block; text-indent: 1rem;">
+                            def __init__(self, fname, lname):
+                        </code>
+                        <code style="display: block; text-indent: 2rem;">
+                            self.firstname = fname
+                        </code>
+                        <code style="display: block; text-indent: 2rem;">
+                            self.lastname = lname
+                        </code><br />
+                        <code style="display: block; text-indent: 1rem;">
+                            def printname(self):
+                        </code>
+                        <code style="display: block; text-indent: 2rem;">
+                            print(self.firstname, self.lastname)
+                        </code><br />
+                        <code class="comment">
+                            #Use the Person class to create an object, 
+                            and then execute the printname method:
+                        </code><br /><br />
+                        <code>x = Person("John", "Doe")</code><br />
+                        <code>x.printname()</code>
+                    </div>
                 </div>
                 <h3>Create a Child Class</h3>
                 <p>
@@ -711,19 +737,21 @@
                     from another class, send the parent class as a 
                     parameter when creating the child class:
                 </p>
-                <h4>Example</h4>
-                <p>
-                    Create a class named <code class="inline-code">Student</code>, 
-                    which will inherit the properties and methods 
-                    from the <code class="inline-code">Person</code> class:
-                </p>
-                <div class="code-block">
-                    <code style="display: block; text-indent: 1rem;">
-                        class Student(Person):
-                    </code>
-                    <code style="display: block; text-indent: 2rem;">
-                        pass
-                    </code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <p>
+                        Create a class named <code class="inline-code">Student</code>, 
+                        which will inherit the properties and methods 
+                        from the <code class="inline-code">Person</code> class:
+                    </p>
+                    <div class="code-block">
+                        <code style="display: block; text-indent: 1rem;">
+                            class Student(Person):
+                        </code>
+                        <code style="display: block; text-indent: 2rem;">
+                            pass
+                        </code>
+                    </div>
                 </div>
                 <p>
                     <strong>Note:</strong>
@@ -750,30 +778,34 @@
                     To create a module just save the code you 
                     want in a file with the file extension .py:
                 </p>
-                <h4>Example</h4>
-                <p>
-                    Save this code in a file named 
-                    <code class="inline-code">mymodule.py</code> 
-                </p>
-                <div class="code-block">
-                    <code>def greeting(name):</code>
-                    <code style="display: block; text-indent: 1rem;">
-                        print("Hello, " + name)
-                    </code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <p>
+                        Save this code in a file named 
+                        <code class="inline-code">mymodule.py</code> 
+                    </p>
+                    <div class="code-block">
+                        <code>def greeting(name):</code>
+                        <code style="display: block; text-indent: 1rem;">
+                            print("Hello, " + name)
+                        </code>
+                    </div>
                 </div>
                 <h3>Use a Module</h3>
                 <p>
                     Now we can use the module we just created, 
                     by using the import statement:
                 </p>
-                <h4>Example</h4>
-                <p>
-                    Import the module named mymodule, and call 
-                    the greeting function:
-                </p>
-                <div class="code-block">
-                    <code>import mymodule</code><br /><br />
-                    <code>mymodule.greeting("Jonathan")</code>
+                <div class="code-block_container">
+                    <h4>Example</h4>
+                    <p>
+                        Import the module named mymodule, and call 
+                        the greeting function:
+                    </p>
+                    <div class="code-block">
+                        <code>import mymodule</code><br /><br />
+                        <code>mymodule.greeting("Jonathan")</code>
+                    </div>
                 </div>
             </article>
         </section>
