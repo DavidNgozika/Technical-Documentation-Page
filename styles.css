@@ -79,3 +79,8 @@ section article {
 th {
     text-align: left;
 }
+
+section li {
+    margin: 0.75rem 0 0 1rem;
+}
+
