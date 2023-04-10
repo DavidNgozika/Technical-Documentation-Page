@@ -13,3 +13,23 @@ body {
     line-height: 1.6;
 }
 
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 18.75rem;
+    min-width: 18rem;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.5);
+}
+
+
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    height: 88%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
